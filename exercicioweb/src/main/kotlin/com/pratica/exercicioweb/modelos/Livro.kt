@@ -4,7 +4,7 @@ import com.pratica.exercicioweb.enums.StatusLivro
 import jakarta.persistence.*
 
 @Entity(name = "livros")
-data class LivroModel(
+data class Livro(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     var id: Int? = null,
